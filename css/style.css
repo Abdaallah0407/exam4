@@ -33,14 +33,14 @@ ul {
     padding: 0;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
     font-weight: 600;
-}
+} */
 
 .header__container {
     margin: 0 auto;
@@ -58,6 +58,7 @@ h6 {
 .nav__item {
     color: #828282;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .header1 {
@@ -69,6 +70,7 @@ h6 {
 .header__heading {
     font-size: 45px;
     width: 50%;
+    font-weight: bold;
 }
 
 .header__text {
@@ -81,11 +83,127 @@ h6 {
     transform: rotate(-90deg);
 }
 
+.color {
+    color: #828282;
+}
+
 .header2 {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .header2__images {
     width: 100%;
+    object-fit: cover;
+}
+
+.neck {
+    background: #F6F6F6;
+    padding: 5rem 0;
+}
+
+.neck__container {
+    text-align: center;
+}
+
+.neck__title {
+    font-weight: 800;
+}
+
+.neck__text {
+    font-size: 18px;
+    font-weight: 600;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+.shoulder__container {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.shoulder__title {
+    font-weight: 800;
+}
+
+.shoulder__text {
+    font-weight: 600;
+}
+
+.shoulder1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.chest {
+    background: #F6F6F6;
+    padding: 5rem 0;
+}
+
+.chest__container {
+    text-align: center;
+
+}
+
+.chest__heading {
+    font-weight: 800;
+    font-size: 34px;
+}
+
+.chest__title {
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+.chest__img {
+    margin-top: 4rem;
+}
+
+.footer {
+    background: #ffffff;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.footer__title {
+    font-weight: 800;
+}
+
+.footer__btn {
+    font-family: Gilroy;
+    color: #fff;
+    background: #000;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 2rem 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer__images {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 2rem 0;
+}
+
+.footer__title2 {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+}
+
+.footer__text {
+    width: 40%;
+    margin: auto;
+    font-size: 20px;
+    color: #828282;
+}
+
+.footer__img {
     object-fit: cover;
 }
