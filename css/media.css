@@ -1,0 +1,153 @@
+.nav [type="checkbox"] {
+    display: none;
+}
+
+.nav label.label__menu {
+    display: none;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+}
+
+.nav label.label__menu .fa {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 480px) {
+    .nav {
+        margin-left: 3rem;
+    }
+
+    .header {
+        height: 30vh;
+    }
+
+    .header:before,
+    .header:after {
+        height: 110vh;
+    }
+
+    .body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .body__block2 {
+        text-align: center;
+    }
+
+    .img__block2 {
+        position: static;
+    }
+
+    .body__block3 {
+        text-align: center;
+    }
+
+
+    .body__block4 {
+        text-align: center;
+
+    }
+
+    .block5 {
+        margin: 0;
+    }
+
+    .block6__images {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .body__block2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .body__block3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .body__block4 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+    .nav {
+        overflow: hidden;
+    }
+
+    .nav ul {
+        display: none;
+    }
+
+    .nav li {
+        color: #000;
+    }
+
+    .nav a {
+        color: #000;
+        padding: 5px;
+    }
+
+    .nav label.label__menu {
+        display: block;
+    }
+
+    .head {
+        padding: 0 100px;
+    }
+
+    .header {
+        height: 100vh;
+    }
+
+    /* .header:before,
+    .header:after {
+        height: 500px;
+    } */
+
+
+    input.input__menu:checked+label.label__menu {
+        background: #ffff;
+        color: #000;
+    }
+
+
+    input.input__menu:checked~ul {
+        display: block;
+        background: #ffff;
+        color: red;
+        max-height: 100%;
+        transition: 1s;
+    }
+
+    .body {
+        text-align: center;
+    }
+
+    .body__block1 {
+        display: block;
+
+    }
+
+    .body__container {
+        padding: 0 3rem;
+    }
+
+
+}
