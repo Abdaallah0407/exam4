@@ -35,7 +35,7 @@
     }
 
     .heade__logo {
-        width: 100%;
+
         display: inline;
         margin-right: 1rem;
     }
@@ -129,5 +129,5 @@
         width: 100%;
     }
 
-    .shoulder__container {}
+
 }
